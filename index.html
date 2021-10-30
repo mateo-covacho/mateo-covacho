@@ -1,149 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>
-        HTML cheat sheet
-    </title>
-    <style type="text/css">
-        #blog-button{
-            margin: 0;
-            position: relative;
-            top: 50%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <h1>
-        Hello world!
-    </h1>
 
-    <button id=blog-button><a href="blog.html">Blog</a></button>
+    <div id=main_page >
+        <H1>
+            Hello I am <span id=highlighted_name>Mateo Covacho Berrocal</span> . This is my software engineer portfolio.
+        </H1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Iste aliquid quia corporis esse voluptatum ratione 
-         explicabo vel eveniet labore magnam est eos necessitatibus, 
-         ipsa rem vero! Natus vitae voluptates facilis.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur 
-        adipisicing elit. Impedit quasi, 
-        consequatur deleniti facere aut 
-        totam maxime quia ipsum ratione 
-        quod quae omnis 
-        <a href="http://google.com" target="_blank">corporis</a>  earum reiciendis 
-        adipisci esse dolorem fugit natus.
-    </p>
-    <ul>
-        <li>list item 1</li>
-        <li>list item 2</li>
-        <li>list item 3</li>
-        <li>list item 4</li>
-        <li>list item 5</li>
-    </ul>
-    <ol>
-        <li>list item 1</li>
-        <li>list item 2</li>
-        <li>list item 3</li>
-        <li>list item 4</li>
-        <li>list item 5</li>
-    </ol>
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Age</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Mateo Covacho</td>
-                <td>mateocovacho@gmail.com</td>
-                <td>16</td>
-            </tr>          
-        </tbody>
-    </table>
+        <br>
+        <br>
 
-    <br>
+        <nav id="buttons">
+            <button id="button" onclick="window.location.href='blog.html'">Blog</button>
+            <button id="button" onclick="window.location.href='cheatsheet.html'">Cheatsheet</button>
+        </nav>
 
-    <form action="precess.php" method="POST">
-        <div>
-            <label>First Name</label>
-            <input type="text" name="first name" placeholder="Name">
-        </div>
+    </div>
+
+    <h1> Here is the rest of the page</h1>
+
         
-        <br>
 
-        <div>
-            <label>Email</label>
-            <input type="email" name="email">
-        </div>
-       
-        <br>
-        
-        <div>
-            <label>Last Name</label>
-            <input type="text" name="last name">
-        </div>
-        
-        <br>
 
-        <div>
-            <label>Gender</label>
-            <select name="gender" placeholder="Gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
-        </div>
+            
 
-        <br>
-
-        <div>
-            <label>Age:</label>
-            <input type="date" name="birthday">
-        </div>
-
-        <br>
-
-        <div>
-            <label for="message"></label>
-            <textarea name="message"></textarea>
-        </div>
-    </form>
-
-    <br>
-
-    <button><a href="http://google.com" target="_blank">Google</a></button> <img>
-
-    <br>
-    <br>
-
-    <img src="amongus.PNG" alt="Image not found" width="700" height="100">
-
-    <br>
-
-    <blockquote> <cite>https://www.urbandictionary.com/define.php?term=Dirty%20Mateo</cite>
-        <br>
-        A guy named Mateo that is really dirty and doesn't take a shower for a year.. but the girls still love him though!!
-        Girl: I love Mateo!!
-        <br>
-        Boy: that kid?!! He very dirty you know..
-        <br>
-        Girl: I don't care.. I STILL LOVE <cite><abbr title="A guy named Mateo that is really dirty and doesn't take a shower for a year.. but the girls still love him though!!
-        "> DIRTY MATEO</abbr></cite> </blockquote>
-    
-    <br>
-    
-    <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank" > <img src="Semantic tags.PNG" alt="Semantic tags.PNG" width="200" height="250" ></a>
-    
-    
-    <hr>
-
-    <div style="margin-top:500px"></div>
 </body>
 </html>

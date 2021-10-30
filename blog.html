@@ -4,24 +4,8 @@
     <title>The blog</title>
     <meta name="Description" content="Blog">
     <meta name="keywords" content="web design, web dev blog">
-    <style type="text/css">
-        #main-header{
-            text-align: center;
-            background-color: black;
-            color:white;
-        }
-        #main-footer{
-            text-align: center;
-            font-size: 20px;
-        }
-        #index-button{
-            margin: 0;
-            position: relative;
-            top: 50%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
+    <link rel="stylesheet" href="css/blog.css">
+
 
     </style>
 </head>
@@ -29,25 +13,32 @@
     <header id=main-header >
         <h1>Mi web</h1>
     </header>
-  
-    <button id=index-button><a href="index.html">Main Page</a></button>
+
+
+
+    <nav>
+        <button type="button" onclick="window.location.href='cheatsheet.html'">Cheat sheet</button>
+        <button type="button" onclick="window.location.href='portfolio.html'">Portfolio</button>
+
+    </nav>
+
 
     <section>
         <article class="post">
-            <h3>Blog 1</h3>
+            <h3 id=blog-title>Blog 1</h3>
             <small>10/26/2021</small>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eveniet recusandae quos porro similique quas assumenda, veniam enim omnis modi et, dicta fugiat saepe consectetur rem quis, cumque eius illum?</p>
         </article>
         
         <article class="post">
-            <h3>Blog 2</h3>
+            <h3 id=blog-title>Blog 2</h3>
             <small>11/26/2021</small>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eveniet recusandae quos porro similique quas assumenda, veniam enim omnis modi et, dicta fugiat saepe consectetur rem quis, cumque eius illum?</p>
 
         <article class="post">
-                <h3>Blog 1</h3>
-                <small>10/26/2021</small>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eveniet recusandae quos porro similique quas assumenda, veniam enim omnis modi et, dicta fugiat saepe consectetur rem quis, cumque eius illum?</p>
+            <h3 id=blog-title>Blog 3</h3>
+            <small>10/26/2021</small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eveniet recusandae quos porro similique quas assumenda, veniam enim omnis modi et, dicta fugiat saepe consectetur rem quis, cumque eius illum?</p>
         </article>
     </section>
 
