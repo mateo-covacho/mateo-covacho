@@ -4,32 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            });
+        });
+    </script>
 </head>
 <body>
 
     <div id=main_page >
         <H1>
-            Hello I am <span id=highlighted_name>Mateo Covacho Berrocal</span> . This is my software engineer portfolio.
+            Hello I am <span id=highlighted_name>Mateo Covacho Berrocal</span> I am a full stack developer.
         </H1>
 
         <br>
         <br>
-
-        <nav id="buttons">
-            <button id="button" onclick="window.location.href='blog.html'">Blog</button>
-            <button id="button" onclick="window.location.href='cheatsheet.html'">Cheatsheet</button>
-        </nav>
-
     </div>
 
-    <h1> Here is the rest of the page</h1>
 
-        
+    <nav id="buttons_main">
+        <button class="button" ><a href="#intro_to_projects">Projects </a></button>
+        <button class="button" ><a href="#about">About </a></button>
+
+    </nav>
 
 
-            
 
+    <div id="about">
+    
+        <h2>About</h2>
+        <p>A little bit about me.</p>
+    
+    </div>
+
+    <div id="intro_to_projects">
+
+        <h2 id="projects">Projects</h2>
+        <p>Below you can find a complation of projects I have been building over the years.</p> 
+  
+    </div>
+ 
 </body>
 </html>

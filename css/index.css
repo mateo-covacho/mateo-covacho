@@ -4,6 +4,7 @@ Color_Pallete{
     color: #3A3D47;
     color: white;
     color: #04C2C9;
+    color: #252934;
 }
 
 
@@ -11,62 +12,87 @@ Color_Pallete{
 *{
     align-content: center;
     text-align: center;
+    font-family: "Courier New";
+}
+
+.full_width {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+    border-spacing:0 0;
+
+}
+
+h1{
+    font-weight:normal;
+}
+
+#buttons_main{
+    background-color: #252934;
+}
+
+#intro_to_projects{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a{
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-style:none;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #e31b6d;
+    cursor: pointer;
+}
+
+nav{
+    display:flex;
 }
 
 body{
-    background-color: #3A3D47;
-
+    background-color: white;
+    padding:0;
+    margin:0;
 }
 #highlighted_name{
     color: #e31b6d;
 }
 
 #main_page{
-    background-color: #252934;
+    background-color: #3A3D47;
     color: white;
-    min-height: 100vh;
-    margin-top: 0vh;
-    padding-top: 1cm;
-    background: linear-gradient(45deg, #e31b6d, #04C2C9, #23d5ab);
-    animation: gradient 15s ease infinite;
-    background-size: 400% 400%;
+    min-height: 100vh !important;
+    margin-top: 0vh !important;
+    height: 100%;
+    padding-top: 100px !important;
+
+    
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
- 
-#button{
+button{
     width: 200px;
     background-color: transparent; /* Green */
-    border-color:white;
-    border-width: 5px;
     color: white;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    border-style: ridge;
+    border-style:none;
 }
 
-#button:hover{
-    width: 200px;
-    background-color: transparent; /* Green */
-    border-color:#e31b6d;
-    border-width: 4px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    border-style: ridge;
+button:hover{
+    color: #e31b6d;
+    cursor: pointer;
 }
 
+#intro_to_projects{
+    background-color: #04C2C9;
+
+}
