@@ -4,7 +4,7 @@ Color_Pallete{
     color: #3A3D47;
     color: white;
     color: #04C2C9;
-    color: #252934;
+    color: #1A7073;
 }
 
 
@@ -52,12 +52,24 @@ a:hover{
     cursor: pointer;
 }
 
-nav{
-    display:flex;
+#buttons_main{
+    text-align: left;
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: left;
+}
+#about_intro{
+    background-color: #04C2C9 !important;
+    height: 10px;
 }
 
 body{
-    background-color: white;
+    background-color: #1A7073;
     padding:0;
     margin:0;
 }
@@ -68,7 +80,7 @@ body{
 #main_page{
     background-color: #3A3D47;
     color: white;
-    min-height: 100vh !important;
+    min-height: 83.1vh !important;
     margin-top: 0vh !important;
     height: 100%;
     padding-top: 100px !important;
@@ -76,23 +88,14 @@ body{
     
 }
 
-button{
-    width: 200px;
-    background-color: transparent; /* Green */
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    border-style:none;
-}
-
-button:hover{
-    color: #e31b6d;
-    cursor: pointer;
-}
-
-#intro_to_projects{
-    background-color: #04C2C9;
+#about, #intro_to_projects{
+    background-color: whitesmoke;
+    position:static;
+    align-self: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 0vh;
+    min-height: 100vh !important;
 
 }
+
