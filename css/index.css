@@ -4,7 +4,7 @@ Color_Pallete{
     color: #3A3D47;
     color: white;
     color: #04C2C9;
-    color: #1A7073;
+    color: #C20114;
 }
 
 
@@ -35,7 +35,7 @@ h1{
     padding-left: 10px;
     padding-right: 10px;
 }
-a{
+nav a{
     width: 200px;
     background-color: transparent;
     color: white;
@@ -47,7 +47,7 @@ a{
     text-decoration: none;
 
 }
-a:hover{
+nav  a:hover{
     color: #e31b6d;
     cursor: pointer;
 }
@@ -69,7 +69,7 @@ a:hover{
 }
 
 body{
-    background-color: #1A7073;
+    background-color: #C20114;
     padding:0;
     margin:0;
 }
@@ -88,14 +88,22 @@ body{
     
 }
 
-#about, #intro_to_projects{
+#about, #projects{
     background-color: whitesmoke;
     position:static;
     align-self: center;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 4%;
+    margin-left:4%;
     margin-top: 0vh;
     min-height: 100vh !important;
-
 }
 
+.project{
+    width: 5px;
+    height: 10px;
+}
+
+.project_image{
+    width: 5px;
+    height: 5px;
+}
