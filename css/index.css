@@ -13,6 +13,8 @@ Color_Pallete{
     align-content: center;
     text-align: center;
     font-family: "Courier New";
+    font-weight:normal;
+    
 }
 
 .full_width {
@@ -23,9 +25,6 @@ Color_Pallete{
 
 }
 
-h1{
-    font-weight:normal;
-}
 
 #buttons_main{
     background-color: #252933;
@@ -69,11 +68,11 @@ nav  a:hover{
 }
 
 body{
-    background-color: #C20114;
+    background-color: #848482 ;
     padding:0;
     margin:0;
 }
-#highlighted_name{
+.highlighted_text{
     color: #e31b6d;
 }
 
@@ -98,9 +97,29 @@ body{
     min-height: 100vh !important;
 }
 
+#about_me{
+    float: right;
+    height: 50%;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 0%;
+    color: black;
+    border-color: black;
+    border-width: 1px;
+    border-style: double;
+    height: 80vh;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
 .project{
     width: 5px;
     height: 10px;
+}
+
+.skills_button_img{
+    width: 10%;
+    height: 10%;
 }
 
 .project_image{
