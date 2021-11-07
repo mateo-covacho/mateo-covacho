@@ -44,6 +44,10 @@ nav a{
     font-size: 16px;
     border-style:none;
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
 
 }
 nav  a:hover{
