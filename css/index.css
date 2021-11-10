@@ -17,6 +17,15 @@ Color_Pallete{
     
 }
 
+
+body{
+    background-color: gray ;
+    padding:0;
+    margin:0;
+}
+
+
+
 .full_width {
     display:table;
     width:100%;
@@ -68,14 +77,10 @@ nav  a:hover{
 }
 #about_intro{
     background-color: #04C2C9 !important;
-    height: 10px;
+    height: 13px;
 }
 
-body{
-    background-color: #848482 ;
-    padding:0;
-    margin:0;
-}
+
 .highlighted_text{
     color: #e31b6d;
 }
@@ -83,7 +88,7 @@ body{
 #main_page{
     background-color: #3A3D47;
     color: white;
-    min-height: 83.1vh !important;
+    min-height: 82.8vh !important;
     margin-top: 0vh !important;
     height: 100%;
     padding-top: 100px !important;
