@@ -88,7 +88,7 @@ nav  a:hover{
 #main_page{
     background-color: #3A3D47;
     color: white;
-    min-height: 82.8vh !important;
+    min-height: 84.6vh !important;
     margin-top: 0vh !important;
     height: 100%;
     padding-top: 100px !important;
@@ -96,7 +96,7 @@ nav  a:hover{
     
 }
 
-#about, #projects{
+#about, #projects, #contact{
     background-color: whitesmoke;
     position:static;
     align-self: center;
@@ -104,6 +104,12 @@ nav  a:hover{
     margin-left:4%;
     margin-top: 0vh;
     min-height: 100vh !important;
+}
+
+#contact_info{
+    width: auto;
+    text-align: left;
+    margin-left: 5%;
 }
 
 #about_me{
@@ -134,4 +140,9 @@ nav  a:hover{
 .project_image{
     width: 5px;
     height: 5px;
+}
+
+input{
+    border-style:groove;
+    align-self: center;
 }
