@@ -1,4 +1,4 @@
-[mateocovacho.com](https://profile-counter.glitch.me/mateo-covacho/count.svg)
+[mateocovacho.com](https://mateocovacho.com/)
 
 - 👋 Hi, I’m @mateo-covacho
 - 👀 I’m interested in anythng new and cool; GraphQL, Svelte and many more things
