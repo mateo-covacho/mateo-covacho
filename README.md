@@ -17,15 +17,47 @@ I am skilled in a wide range of areas and am able to quickly learn and adapt to 
 ## My favorite quality
 One of my favorite qualities as a software engineer is my problem-solving skills. However, I believe my most important quality is my initiative and passion for learning new things in tech. I am constantly seeking out opportunities to expand my knowledge and stay up-to-date on the latest developments in the industry.
 
-## Tech I use
-### Client-side Applications
-HTML5 CSS TypeScript ReactJS JavaScript Bootstrap Svelte Three.js BlueprintJS
+## Tech I have used
+### Frontend
+Technologies I Use for Building Client-Side Applications
+These are the technologies I utilize for developing and designing responsive web applications.
 
-### Backend Applications
-AWS Next.js Ethers Node.js Python Java Firebase Serverless Docker Netlify Vercel
+HTML5
+CSS
+TypeScript & JavaScript
+ReactJS
+Bootstrap
+Svelte
+Three.js
+BlueprintJS
+
+
+### Backend
+Technologies I Use for Building Fast and Scalable Backend Applications
+I use these technologies to develop fast, scalable, and flexible backend applications.
+
+Amazon Web Services (AWS)
+Next.js
+Ethers
+Node.js
+Python
+Java
+Firebase
+Serverless
+Docker
+Netlify
+Vercel
 
 ### Productivity
-Git Figma NPM GitHub VSCode Bash
+Technologies I Use to Increase Productivity
+These are the technologies I use to streamline my work and enhance my productivity in building CI/CD pipelines and writing code efficiently.
+
+Git
+Figma
+NPM
+GitHub
+VSCode
+Bash
 
 ## My projects
 
