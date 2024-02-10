@@ -78,7 +78,7 @@ Technologies: Frontend design, and more.
 
 ### Portfolio
 
-My personal portfolio that you are in right now. I use this project to showcase my projects and elaborate on my development process for each of them.
+My [personal portfolio](https://mateocovacho.com/). I use this project to showcase my projects and elaborate on my development process for each of them.
 
 Technologies: Frontend design
 
