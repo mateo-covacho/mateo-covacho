@@ -5,8 +5,6 @@
 ## Lifelong tinkerer and software engineer  
 
 
-// [![Readme Card](https://myreadme.vercel.app/api/embed/mateo-covacho?panels=toprepositories,toplanguages,commitgraph,userstatistics)](https://myreadme.vercel.app/api/embed/mateo-covacho?panels=toprepositories,toplanguages,commitgraph,userstatistics)
-
 ## My projects
 
 # Network Explorer //  graph-pp
